@@ -1,6 +1,7 @@
 
 mod problem_2044_count_number_of_maximum_bitwise_or_subsets;
 mod problem_0559_minimum_index_sum_of_two_lists;
+mod problem_0004_median_of_two_sorted_arrays;
 mod problem_0003_longest_substring_without_repeating_characters;
 mod problem_0002_add_two_numbers;
 mod problem_0001_two_sum;
