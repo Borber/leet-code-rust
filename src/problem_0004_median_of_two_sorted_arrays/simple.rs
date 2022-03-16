@@ -5,7 +5,6 @@ use std::cmp::Ordering;
 impl Solution {
 
     pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
-        let (nums1, nums2) = if nums1.len() > nums2.len() {(nums1, nums2)} else { (nums2, nums1) };
         let mid = (nums1.len() + nums2.len()) / 2;
         let jo = (nums1.len() + nums2.len()) % 2;
         match (nums1.clone().first(), nums2.clone().first()) {
